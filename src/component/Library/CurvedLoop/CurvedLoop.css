@@ -1,0 +1,21 @@
+.curved-loop-jacket {
+  display: flex;
+  justify-content: center;       /* horizontal centering */
+  align-items: center;           /* vertical centering */
+  width: 100%;
+  padding: 20px 0;               /* top & bottom padding 20px */
+  background-color: #E85102;
+  box-sizing: border-box;
+}
+
+.curved-loop-svg {
+  width: 100%;                   /* full width of container */
+  height: auto;                  /* maintain aspect ratio */
+  display: block;
+  overflow: visible;
+  font-size: clamp(1.5rem, 5vw, 2.5rem); /* responsive font-size */
+  fill: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+}

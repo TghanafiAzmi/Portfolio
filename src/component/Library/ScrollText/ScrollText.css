@@ -1,0 +1,15 @@
+.scroll-text {
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 1.7;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  /* Background color of the section should be dark for this to work */
+}
+
+.word {
+  color: #333333; /* The initial dimmed state for every word */
+  display: inline-block;
+  margin-right: 0.2em; /* Ensure words don't stick together */
+}
