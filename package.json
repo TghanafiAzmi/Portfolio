@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tghanafiazmi.github.io",
+  "homepage": "https://tghanafiazmi.github.io/Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,10 +7,10 @@
   "dev": "next dev",
   "build": "next build",
   "start": "next start",
-  "export": "next export",
-  "predeploy": "npm run build && npm run export",
+  "predeploy": "npm run build",
   "deploy": "gh-pages -d out"
-  },
+}
+,
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.7.7",
