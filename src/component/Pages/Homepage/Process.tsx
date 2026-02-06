@@ -6,7 +6,7 @@ import ShinyText from '@/src/component/Library/Shiny Text/ShinyText';
 
 export default function Process() {
   return (
-    <Section>
+    <Section id = "services" >
       <Container>
 
       <Container className="flex justify-center pb-8">

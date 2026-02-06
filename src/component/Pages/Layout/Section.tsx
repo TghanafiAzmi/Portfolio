@@ -4,10 +4,11 @@ type SectionProps = {
   id?: string;
 };
 
-export default function Section({ children, className = "" }: SectionProps) {
+export default function Section({ children, className = "", id }: SectionProps) {
   return (
     <section
-      className={`w-full py-8 sm:py-12  ${className}`}
+      id={id} 
+      className={`w-full py-8 sm:py-12 ${className}`}
     >
       {children}
     </section>
