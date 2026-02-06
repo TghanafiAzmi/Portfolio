@@ -42,22 +42,35 @@ export default function Showcase() {
   return (
     <Section id="projects" className="relative bg-[#0a0a0a]">
 
-      {/* 🔹 Top container (text + button) */}
       <Container className="text-center space-y-4">
         <h2 className="text-3xl sm:text-4xl font-bold text-white">
           Explore My Work
         </h2>
 
-        <p className="text-white/70 max-w-xl mx-auto">
-          Here are some of my projects, showcasing my skills in front-end development and design.
+        <p className="text-white/70 max-w-4xl mx-auto">
+          Here are some of my web prototype projects, showcasing my approach to UI design, interactive layouts, and seamless user experiences. Other design assets can be downloaded using the button below.
         </p>
 
-        <button
-          className="px-6 py-3 bg-[#E95203] text-white rounded-lg
-          hover:bg-[#ff7033] transition-all duration-300"
-        >
-          View All Projects
-        </button>
+        {/* Wrap buttons in a flex container with gap */}
+        <div className="flex justify-center gap-8 mt-6">
+          <button
+            onClick={() => window.open("https://www.behance.net/tghanafiazmi", "_blank")}
+            className="px-6 py-3 bg-[#E95203] text-white rounded-lg
+              hover:bg-[#ff7033] transition-all duration-300 cursor-pointer"
+          >
+            View Prototype Details
+          </button>
+
+          <button
+            onClick={() => window.open("https://drive.google.com/file/d/1d8KYkPN_6v8UgUPlNlb2jBqgHpBZYGg_/view?usp=sharing", "_blank")}
+            className="px-6 py-3 bg-white/10 text-white rounded-lg
+              backdrop-blur-md border border-white/30
+              transition-all duration-300
+              hover:bg-white/20 hover:-translate-y-0.5 cursor-pointer"
+          >
+            View Other Projects
+          </button>
+        </div>
       </Container>
 
       {/* 🔹 Bottom container (gallery) */}

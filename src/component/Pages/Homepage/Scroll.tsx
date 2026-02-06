@@ -88,7 +88,7 @@ export default function ScrollSection() {
 
         {/* Scrollable Text */}
         <ScrollText
-          text={`Hi, I'm Tengku Hanafi, a passionate web designer and front-end developer. I craft clean, modern, and responsive websites that deliver engaging user experiences. From UI design to seamless interactions, I bring ideas to life.`}
+          text={`Hi, I’m Tengku Hanafi, a UI/UX designer passionate about creating modern, responsive websites and digital experiences. I focus on intuitive interfaces and seamless interactions while continuously expanding my skills in front-end development to bring ideas to life.`}
         />
 
         {/* ImageTrail with Star Border */}

@@ -47,7 +47,7 @@ export default function Hero() {
 
         {/* Optional ShinyText on top */}
         <ShinyText
-          text="Hi There Im Tengku Hanafi"
+          text="Hi There Im Tengku Hanafi >.<"
           speed={1.4}
           delay={0.8}
           color="#ffffff"
@@ -77,20 +77,31 @@ export default function Hero() {
         />
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
-          <button
-            className="px-6 py-3 bg-white text-orange-600 font-semibold rounded-lg
+        <button
+          onClick={() => {
+            const projectSection = document.getElementById('projects');
+            if (projectSection) {
+              projectSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
+          className="px-6 py-3 bg-white text-orange-600 font-semibold rounded-lg
             shadow-lg transition-all duration-300
             hover:bg-orange-500 hover:text-white
-            hover:shadow-orange-500/40 hover:-translate-y-0.5"
-          >
-            View My Project
-          </button>
+            hover:shadow-orange-500/40 hover:-translate-y-0.5 cursor-pointer"
+        >
+          View My Project
+        </button>
 
-          <button
+          <button onClick={() => {
+            const projectSection = document.getElementById('contact');
+            if (projectSection) {
+              projectSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
             className="px-6 py-3 bg-white/10 text-white rounded-lg
             backdrop-blur-md border border-white/30
             transition-all duration-300
-            hover:bg-white/20 hover:-translate-y-0.5"
+            hover:bg-white/20 hover:-translate-y-0.5 cursor-pointer"
           >
             Contact Me 
           </button>

@@ -38,9 +38,9 @@ const cardData = [
   },
   {
     color: '#060010',
-    title: 'Poster Design',
-    description: 'Eye-catching posters for events or campaigns',
-    label: 'Marketing', 
+    title: 'Game Dev',
+    description: 'Building games with creativity and precision',
+    label: 'Development', 
     image: '/assets/Photos/s5.png'
   },
   {
