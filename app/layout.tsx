@@ -12,6 +12,9 @@ const sora = Sora({
 export const metadata: Metadata = {
   title: "Portfolio – Tghanafi Azmi",
   description: "Web designer & developer portfolio",
+  icons: {
+    icon: '/assets/Photos/MainLogo.ico', 
+  },
 };
 
 export default function RootLayout({

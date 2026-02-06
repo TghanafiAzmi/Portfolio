@@ -104,8 +104,8 @@ export default function ScrollSection() {
             {/* ImageTrail component */}
             <div className="absolute inset-0">
               <ImageTrail
-                items={imageItems as any}  // fix TS error
-                variant={2}
+                items={imageItems as any}  
+                variant={3}
               />
             </div>
 
